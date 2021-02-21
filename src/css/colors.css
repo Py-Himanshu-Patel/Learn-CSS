@@ -1,0 +1,14 @@
+/* using name of color */
+#first {
+	color: royalblue;
+}
+
+/* using HEX code */
+#second {
+	color: #ff0f0f;
+}
+
+/* using rgb value of color */
+#third {
+	color: rgb(150, 100, 256);
+}
