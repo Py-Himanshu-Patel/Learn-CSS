@@ -1,6 +1,179 @@
+/* reset  */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: aliceblue;
+	color: #555555;
+
+	/* font-weight: normal;
+	font-size: 16px;
+	font-family: cursive; */
+	font: normal 16px cursive;
+
+	line-height: 1.8em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active{
+	color: red;
+}
+
+/* a:visited{
+	color: mediumorchid;
+} */
+
 .container {
 	width: 80%;
+
+	/* margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px; */
 	margin: auto;
+
+}
+
+.button {
+	background: darkslategray;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: grey 0px 0px 10px;
+}
+
+.button:hover{
+	background-color: wheat;
+	color: black;
+}
+
+.clr {
+	clear: both;
+}
+
+.box1 {
+	margin-top: 10px;
+	text-align: justify;
+
 	background-color: darkslategrey;
 	color: white;
+
+	/* border-left: 10px greenyellow solid;
+	border-right: 10px greenyellow solid;
+	border-top: 10px greenyellow solid;
+	border-bottom: 10px greenyellow solid;
+	border-width: 3px;
+	border-bottom-width: 10px;
+	border-bottom-style: dotted; */
+
+	/* If multiple style given for an element bottom most or last style is applies */
+	border: 5px green solid;
+
+	/* padding-right: 20px;
+	padding-left: 20px ;
+	padding-top: 20px ;
+	padding-bottom: 20px; */
+	padding: 20px;
+
+}
+
+.box1 p {
+	margin-top: 10px;
+
+}
+
+.box1 h1 {
+	letter-spacing: 0.1em;
+	word-spacing: 0.2em;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.box2 {
+	margin-top: 20px;
+	border: 5px #5f5f5f solid;
+	padding: 10px;
+	background-color: burlywood;
+	color: black;
+}
+
+.box2 p {
+	margin-top: 10px;
+}
+
+.box2 h1 {
+	letter-spacing: 0.1em;
+	font-style: italic;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.categories {
+	border: 5px olivedrab solid;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.categories h1 {
+	text-align: center;
+}
+
+.categories ul {
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+.categories li {
+	list-style-image: url('../images/checkmark-small.png') ;
+	border-bottom: 2px cornflowerblue dotted;
+}
+
+.my-form {
+	margin-top: 20px;
+	padding: 10px;
+	border: 2px black solid;
+}
+
+.my-form .form-group {
+	padding-bottom: 20px;
+	/* border: 2px red solid; */
+}
+
+.my-form label {
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+	border: 2px black solid;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/* .my-form input[type="submit"] {
+	background: darkslategray;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+} */
+
+.block {
+	float: left;
+	width: 33.33%;
+	margin-top: 20px;
+	box-sizing: border-box;
+	/* border: 2px grey dotted; */
+	text-align: center;
 }
