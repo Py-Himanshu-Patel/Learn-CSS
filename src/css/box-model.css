@@ -177,3 +177,25 @@ a:active{
 	/* border: 2px grey dotted; */
 	text-align: center;
 }
+
+#main-block {
+	margin-top: 20px;
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+	padding: 5px;
+
+	/* border: crimson 2px solid; */
+}
+
+#sidebar {
+	margin-top: 20px;
+	width: 30%;
+	float: right;
+	background-color: #333333;
+	color: white;
+	box-sizing: border-box;
+	padding: 5px;
+	
+	/* border: crimson 2px solid; */
+}

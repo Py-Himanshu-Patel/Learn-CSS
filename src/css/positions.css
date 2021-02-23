@@ -1,0 +1,54 @@
+/* reset  */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: aliceblue;
+	color: #555555;
+	font: normal 16px cursive;
+	line-height: 1.8em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active{
+	color: red;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.button {
+	background: darkslategray;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: grey 0px 0px 10px;
+}
+
+.button:hover{
+	background-color: wheat;
+	color: black;
+}
+
+.clr {
+	clear: both;
+}
+
+.position-box {
+	margin: 10px;
+	border: 2px green solid;
+}
+
+
