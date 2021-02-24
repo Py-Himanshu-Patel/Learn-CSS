@@ -5,8 +5,8 @@
 }
 
 body {
-	background-color: aliceblue;
-	color: #555555;
+	background-color: #6d6875;
+	color: #f1faee;
 	font: normal 16px cursive;
 	line-height: 1.8em;
 }
@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-	color: green;
+	color: white;
 }
 
 a:active{
@@ -47,8 +47,53 @@ a:active{
 }
 
 .position-box {
-	margin: 10px;
-	border: 2px green solid;
+	margin-top: 20px;
+	border: 2px #ffcdb2 solid;
+	position: relative;
+	width: 700px;
+	height: 500px;
+	background-image: url('../images/bg-dark.jpg');
+	background-position: center;
 }
 
+.position-box h1 {
+	/* distance relative from parent  */
+	position: absolute;
+	/* distance from parent elements side  */
+	top: 20px;
+	left: 50px;
+}
 
+.position-box h2 {
+	/* distance relative from parent  */
+	position: absolute;
+	/* distance from side of parent element */
+	bottom: 20px;
+	right: 40px;
+}
+
+.fixed {
+	position: fixed;
+	top: 200px;
+	right: 10px;
+}
+
+.my-list {
+	margin-top: 20px;
+}
+
+.my-list li:first-child {
+	background: #f4a261;
+} 
+
+.my-list li:last-child {
+	background: #e76f51;
+} 
+
+.my-list li:nth-child(5) {
+	background: #e63946;
+} 
+
+.my-list li:nth-child(even) {
+	background: #fae1dd;
+} 

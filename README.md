@@ -15,3 +15,5 @@
   - Fixed
   - Initial
   - Inherit
+
+- These properties will not work unless the position property is set first
