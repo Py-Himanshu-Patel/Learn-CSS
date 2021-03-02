@@ -17,3 +17,17 @@
   - Inherit
 
 - These properties will not work unless the position property is set first
+
+## Flexbox
+
+- A CSS3 layout that that provide an easy and clean way to arrange items within a container.
+
+- Order of elements can be easily changed without editing the source HTML.
+
+- No Floats.
+
+<p align='center'>
+    <img src="src/images/flex-box-diagram.JPG" width=800>
+</p>
+
+**Source : Brad Traversy YouTube Channel**
